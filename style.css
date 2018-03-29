@@ -1,0 +1,11 @@
+.wrapper {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+    border: 2px solid green;
+}
+tr:nth-child(odd) th:nth-child(even), tr:nth-child(even) th:nth-child(odd) {
+    background-color: aqua;
+}
